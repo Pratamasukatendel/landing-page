@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: min-content;
+  background-color: #ffbaa1;
+}
+
+nav {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1em;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 3em;
+}
+
+ul li a {
+  color: black;
+  font-size: 18px;
+}
+
+ul li:last-child a {
+  color: white;
+  background: #110acd;
+  padding: 5px 15px;
+  border-radius: 1.5px;
+}
+
+.konten {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.konten .konten-left {
+  width: 350px;
+  font-size: 2.5rem;
+  text-align: right;
+}
+
+.app-image {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+main {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.main-left {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-right {
+  width: 25%;
+  padding: 1em;
+}
+
+.main-right .title {
+  font-size: 2em;
+  margin: 1rem 0;
+}
+
+.main-right .caption {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.main-right a {
+  font-size: 1em;
+  display: inline-block;
+  width: 100%;
+  background-color: #110acd;
+  color: #fff;
+  margin-top: 1em;
+  padding: 10px 64px;
+  text-align: center;
+  border-radius: 2px;
+}
